@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+
+</head>
+<style>
+    *{
+        background-color: bisque;
+    }
+    div {
+        margin-left: 40px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #food {
+        width: 100px;
+    }
+</style>
+
+<body>
+    <form>
+        <label for="name">your name
+            <input id="name" type="text">
+        </label>
+
+        <label for="number">your Number
+            <input id="number" type="text">
+        </label>
+
+        <label for="adress">your Adress
+            <input id="adress" type="text">
+        </label>
+
+        <label for="road">your Road Number
+            <input id="road" type="text">
+        </label>
+        <label for="date">Date
+            <input type="date" name="date" id="date">
+        </label>
+        <fieldset id="food">
+            <legend>Chose One</legend>
+            <label for="Spicy">
+                <input type="radio" name="jhal" id="Spicy">
+                Spicy
+            </label>
+            <label for="regular">
+                <input type="radio" name="jhal" id="regular">
+                Regular
+            </label>
+            <label for="mild">
+                <input type="radio" name="jhal" id="mild">
+                Mild
+            </label>
+        </fieldset>
+        <fieldset>
+            <h4>Choose Your Food</h4>
+            <label for="pizza">
+                <input type="checkbox" name="pizza" id="pizza">
+                Pizza
+            </label>
+            <label for="burger">
+                <input type="checkbox" name="pizza" id="burger">
+                Burger
+            </label>
+            <div>
+                <input type="radio" name="mutton" id="mutton">
+                Mutton
+            </div>
+            <div>
+                <input type="radio" name="mutton" id="chicken">
+                Chicken
+            </div>
+            <div>
+                <input type="radio" name="mutton" id="beef">
+                Beef
+            </div>
+            <label for="sub">
+                <input type="checkbox" name="pizza" id="sub">
+                Sub Sandwich
+            </label>
+            <label for="hot">
+                <input type="checkbox" name="pizza" id="hot">
+                Hot Dog
+            </label>
+            <label for="Kacchi">
+                <input type="checkbox" name="pizza" id="Kacci">
+                Kacchi
+            </label>
+            <label for="Pasta">
+                <input type="checkbox" name="pizza" id="Pasta">
+                Pasta
+            </label>
+
+        </fieldset>
+        <fieldset>
+            <legend>If you want to say somethings you can say here</legend>
+            <textarea name="" id="" cols="90" rows="5"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+
+</html>
